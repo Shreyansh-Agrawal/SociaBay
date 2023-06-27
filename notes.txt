@@ -1,0 +1,4 @@
+npx create-react-app
+clean up
+install tailwind
+setup firebase
