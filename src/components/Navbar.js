@@ -13,7 +13,7 @@ const Navbar = () => {
   const [user] = useAuthState(auth);
   return (
     <div className={style.nav}>
-      <h1 className={style.heading}>ChitChat</h1>
+      <h1 className={style.heading}>SociaBay</h1>
       {user ? <SignOut /> : <SignIn />}
     </div>
   );
