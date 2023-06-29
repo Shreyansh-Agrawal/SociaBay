@@ -1,8 +1,8 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect } from "react";
 import Message from "./Message";
 import { query, collection, onSnapshot, orderBy } from "firebase/firestore";
 import { db } from "../firebase";
-import SendMessage from "./SendMessage";
+// import SendMessage from "./SendMessage";
 
 const style = {
   main: `flex flex-col p-[10px] relative`,
@@ -10,7 +10,7 @@ const style = {
 
 const Chat = () => {
   const [messages, setMessages] = useState([]);
-  const scroll = useRef();
+  // const scroll = useRef();
 
   useEffect(() => {
     const q = query(collection(db, "messages"), orderBy("timestamp"));

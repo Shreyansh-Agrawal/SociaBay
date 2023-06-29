@@ -7,8 +7,8 @@ import Chat from "./components/Chat";
 import SendMessage from "./components/SendMessage";
 
 const style = {
-  appContainer: `max-w-[728px] mx-auto text-center`,
-  sectionContainer: `flex flex-col min-h-[90vh] bg-gray-100 shadow-xl border realtive`,
+  appContainer: `max-w-[728px] mx-auto text-center bg-gray-800`,
+  sectionContainer: `flex flex-col min-h-[90vh] bg-gray-100 shadow-xl border border-b-0 realtive`,
 };
 
 function App() {
