@@ -5,8 +5,8 @@ import { IoSend } from "react-icons/io5";
 
 const style = {
   form: `h-14 w-full max-w-[728px] bg-gray-100 shadow-xl border border-t-0 flex text-xl absolute bottom-0 position: sticky`,
-  input: `w-full text-xl p-5 bg-gray-900 text-white outline-none border-none rounded-full m-1`,
-  button: `w-[20%] flex text-white justify-center items-center bg-green-500 rounded-full m-1`,
+  input: `w-full text-xl p-5 bg-gray-900 text-white outline-none border-none rounded-full m-1 ml-2`,
+  button: `w-[20%] flex text-white justify-center items-center bg-green-500 hover:bg-green-600 rounded-full m-1 mr-2`,
 };
 
 const SendMessage = ({scroll}) => {
