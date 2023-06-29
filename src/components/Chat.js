@@ -34,8 +34,8 @@ const Chat = () => {
 
       </main>
       {/* Send message component */}
-      <SendMessage scroll={scroll}/>
-      <span ref={scroll}></span>
+      {/* <SendMessage scroll={scroll}/> */}
+      {/* <span ref={scroll}></span> */}
     </>
   );
 };
