@@ -1,6 +1,6 @@
 import { GoogleAuthProvider, signInWithRedirect } from 'firebase/auth'
 import React from 'react'
-import GoogleButton from 'react-google-button'
+// import GoogleButton from 'react-google-button'
 import {auth} from '../firebase'
 
 const style = {
